@@ -172,6 +172,18 @@ address {
   line-height: inherit;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 ol,
 ul {
   padding-left: 2rem;
