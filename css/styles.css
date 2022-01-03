@@ -11433,6 +11433,12 @@ html {
   max-width: 30rem;
 }
 
+.photos{
+    height: 30px;
+    width: 80px;
+} 
+  
+}
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
